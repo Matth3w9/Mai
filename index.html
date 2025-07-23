@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para Maiza 💖</title>
+  <link rel="stylesheet" href="mai.css"    />
+</head>
+<body>
+  <div class="container">
+    <h1>Oi, Maiza! 💌</h1>
+    <p class="intro">Este site é só pra te lembrar o quanto você é especial pra mim.</p>
+    <button id="loveBtn">Clique aqui 💕</button>
+    <p id="mensagem" class="hidden">Você é o melhor capítulo da minha história. Te amo! 💘</p>
+  </div>
+
+  <script>
+    const btn = document.getElementById("loveBtn");
+    const msg = document.getElementById("mensagem");
+
+    btn.addEventListener("click", () => {
+      msg.classList.toggle("hidden");
+    });
+  </script>
+</body>
+</html>
